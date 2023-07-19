@@ -1,0 +1,8 @@
+numpy
+opencv-python
+tensorboard
+scipy
+pyyaml
+tqdm
+coloredlogs
+lpips
