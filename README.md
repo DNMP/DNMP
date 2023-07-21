@@ -36,6 +36,12 @@ python setup.py build_ext --inplace
 
 You can run `scripts/test_kitti360.sh` for evaluation. (Please specify `SAVE_DIR`, `DATA_ROOT` and the pretrained files in the script.)
 
+## To-Do List
+
+- [ ] Release Code and pretrained model
+- [x] Technical Report
+- [x] Project page
+
 ## Citation
 If you find this project useful for your work, please consider citing:
 ```
