@@ -10,8 +10,8 @@ The repository contains the official implementation of source code and pre-train
 
 
 ## Updates
-- 2023.07.21: The :star::star::star:**The source code is released!**:star::star::star: Try it!
-- 2023.07.21: The :fire::fire::fire:**The [pre-print](https://arxiv.org/abs/2307.10776) is released!**:fire::fire::fire: Refer to it for more details!
+- 2023.07.21: The :star::star::star:**source code is released!**:star::star::star: Try it!
+- 2023.07.21: The :fire::fire::fire:**[pre-print](https://arxiv.org/abs/2307.10776) is released!**:fire::fire::fire: Refer to it for more details!
 - 2023.07.19: The [project page](https://dnmp.github.io/) is created. Check it out for an overview of our work!
 
 ## Datasets
