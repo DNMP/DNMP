@@ -3,7 +3,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2307.10173-b31b1b.svg)](https://arxiv.org/abs/2307.10776) <a href="https://dnmp.github.io/">
 <img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a> 
-<a href="https://youtu.be/JmYWUxsBz-4"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
+<a href="https://www.youtube.com/watch?v=JABhlaVq4VA"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
 ## Introduction
 The repository contains the official implementation of source code and pre-trained models of our paper:*"[Urban Radiance Field Representation with Deformable Neural Mesh Primitives]()"*. It is a new representation to model urban scenes for efficient and high-quality rendering!
