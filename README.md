@@ -6,7 +6,7 @@
 <a href="https://youtu.be/JmYWUxsBz-4"><img alt="Demo" src="https://img.shields.io/badge/-Demo-ea3323?logo=youtube"></a> 
 
 ## Introduction
-The repository contains the official implementation of source code and pre-trained models of our paper: Urban Radiance Field Representation with Deformable Neural Mesh Primitives. It is a new representation to model urban scenes for efficient and high-quality rendering!
+The repository contains the official implementation of source code and pre-trained models of our paper:*"[Urban Radiance Field Representation with Deformable Neural Mesh Primitives]()"*. It is a new representation to model urban scenes for efficient and high-quality rendering!
 
 
 ## Updates
