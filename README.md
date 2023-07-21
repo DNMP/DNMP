@@ -3,6 +3,11 @@
 ## Introduction
 The repository contains the source code and pre-trained models of our paper (published on ICCV 2023): Urban Radiance Field Representation with Deformable Neural Mesh Primitives.
 
+
+## Updates
+- 2023.07.21: The :fire::fire::fire:**The [pre-print]([https://arxiv.org/abs/2307.10776) is released!**:fire::fire::fire: Refer to it for more details!
+- 2023.07.19: The [project page](https://dnmp.github.io/) is created. Check it out for an overview of our work!
+
 ## Datasets
 We conduct experiments on two outdoor datasets: KITTI-360 dataset, Waymo-Open-Dataset.
 Please refer to preprocess/README.md for more details.
