@@ -1,4 +1,4 @@
-# Urban Radiance Field Representation with Deformable Neural Mesh Primitives
+# [ICCV 2023] Urban Radiance Field Representation with Deformable Neural Mesh Primitives
 
 ## Introduction
 The repository contains the source code and pre-trained models of our paper (published on ICCV 2023): Urban Radiance Field Representation with Deformable Neural Mesh Primitives.
