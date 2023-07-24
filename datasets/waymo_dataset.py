@@ -16,8 +16,8 @@ class WaymoDataset(Dataset):
             self.img_path = config.train_img_path
             self.poses_path = config.train_poses_path
         else:
-            self.img_path = config.val_img_path
-            self.poses_path = config.val_poses_path
+            self.img_path = config.test_img_path
+            self.poses_path = config.test_poses_path
         
         self.calib_path = config.calib_path
         self.cam_to_pose_path = config.cam_to_pose_path

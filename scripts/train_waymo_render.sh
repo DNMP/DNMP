@@ -1,8 +1,8 @@
 export TIME=$(date +"%Y-%m-%d_%H-%M-%S")
-export DATASET="kitti360"
+export DATASET="waymo"
 export SEQUENCE=""
-export DRIVE="2013_05_28_drive_0009_sync"
 export DATA_ROOT=""
+export VOXEL_SIZE=0.5
 export LOG_DIR=""
 export CKPT_DIR=""
 export PRETRAINED_MESH_AE="pretrained/mesh_ae/mesh_ae.pth"
@@ -20,11 +20,10 @@ python train_render.py \
 --dataset ${DATASET} \
 --train_img_path ${DATA_ROOT}/${SEQUENCE}/train_imgs \
 --test_img_path ${DATA_ROOT}/${SEQUENCE}/test_imgs \
---train_poses_path ${DATA_ROOT}/data_poses/${DRIVE}/poses.txt \
---test_poses_path ${DATA_ROOT}/data_poses/${DRIVE}/poses.txt \
+--train_poses_path ${DATA_ROOT}/${SEQUENCE}/train_poses.npy \
+--test_poses_path ${DATA_ROOT}/${SEQUENCE}/test_poses.npy \
 --pts_file ${DATA_ROOT}/${SEQUENCE}/pcd.npz \
---calib_path ${DATA_ROOT}/calibration/perspective.txt \
---cam_to_pose_path ${DATA_ROOT}/calibration/calib_cam_to_pose.txt \
+--calib_path ${DATA_ROOT}/${SEQUENCE}/intrinsics.npy \
 --log_dir ${LOG_DIR}/render-${DATASET}-${SEQUENCE}-${TIME} \
 --checkpoint_dir ${CKPT_DIR}/render-${DATASET}-${SEQUENCE}-${TIME} \
 --num_rays 16384 \
